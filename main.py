@@ -3,7 +3,6 @@ import time
 from selenium import webdriver
 
 
-
 driver = webdriver.Chrome('/Users/andrejusycenko/chromedriver/chromedriver1')  # Enter your path to the driver
 
 driver.get('https://ya.ru/')
