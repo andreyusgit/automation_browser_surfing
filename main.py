@@ -4,7 +4,7 @@ from selenium import webdriver
 
 
 
-driver = webdriver.Chrome('/Users/andrejusycenko/chromedriver/chromedriver1')  # Optional argument, if not specified will search path.
+driver = webdriver.Chrome('/Users/andrejusycenko/chromedriver/chromedriver1')  # Enter your path to the driver
 
 driver.get('https://ya.ru/')
 
@@ -12,7 +12,7 @@ time.sleep(3)
 
 driver.get('https://duckduckgo.com/')
 
-time.sleep(3) # Let the user actually see something!
+time.sleep(3) 
 
 search_box = driver.find_element_by_name('q')
 
